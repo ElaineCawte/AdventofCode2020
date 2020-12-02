@@ -1,6 +1,6 @@
 import java.io.File
 
-val numbers: List<String> = File("input").readLines()
+val numbers: List<String> = File("input1").readLines()
 
 for(number in numbers)
     for(othernumber in numbers)
